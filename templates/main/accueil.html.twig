@@ -4,7 +4,9 @@
 {% endblock %}
 
 {% block body %}
-	<div class="row">
+	<div
+		class="row">
+		{# gestion des messages #}
 		{% for message in app.flashes('message') %}
 			<div class="alert alert-info" role="alert">{{ message }}</div>
 		{% endfor %}

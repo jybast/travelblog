@@ -35,9 +35,10 @@ git push -u origin main
 # Système d'authentification et enregistrement
 * Créer l'entité User : symfony console make:user
 * Créer un HomeController de pages statiques (home, contact, about)
-
-## TO DO
 * symfony console make:auth
 * symfony console make:registration-form
 * composer require symfonycasts/reset-password-bundle
+* composer require symfonycasts/verify-email-bundle
 * symfony console make:reset-password
+
+## TO DO
