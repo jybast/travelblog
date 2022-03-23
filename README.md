@@ -32,6 +32,7 @@ git push -u origin main
 * composer remove webpack
 * supprimer les fichiers docker-compose.*
 * décommenter la ligne #Symfony\Component\Mailer\Messenger\SendEmailMessage: async dans le fichier messenger.yaml,
+* composer require string (pour slugger et traitement des chaînes de caractères)
 # Système d'authentification et enregistrement
 * Créer l'entité User : symfony console make:user
 * Créer un HomeController de pages statiques (home, contact, about)
